@@ -1,0 +1,2 @@
+﻿
+scaffold-DbContext "Server=DESKTOP-E4E9TJI;Initial Catalog=AKIJ;Persist Security Info=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;Integrated Security=True;Connection Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "DbContexts/Models" -ContextDir "DbContexts" -Context "ReadWriteContext" -t Employee -f
