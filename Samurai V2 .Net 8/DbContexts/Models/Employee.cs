@@ -15,7 +15,7 @@ public partial class Employee
 
     public string? Mobile { get; set; }
 
-    public DateOnly? DateofBirth { get; set; }
+    public DateTime? DateofBirth { get; set; }
 
     public DateTime? ActionDate { get; set; }
 

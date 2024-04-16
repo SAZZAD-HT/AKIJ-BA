@@ -30,6 +30,7 @@ public partial class ReadWriteContext : DbContext
 
             entity.Property(e => e.EmployeeId).HasColumnName("EmployeeID");
             entity.Property(e => e.ActionDate).HasColumnType("datetime");
+            entity.Property(e => e.DateofBirth).HasColumnType("datetime");
             entity.Property(e => e.Email).HasMaxLength(500);
             entity.Property(e => e.Mobile).HasMaxLength(500);
             entity.Property(e => e.Name).HasMaxLength(500);

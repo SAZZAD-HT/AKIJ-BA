@@ -7,7 +7,7 @@ namespace Samurai_V2_.Net_8.DependencyContainer
     {
         public static void RegisterServices(IServiceCollection services)
         {
-            services.AddTransient<IBookRepo, BookRepo>();
+            services.AddTransient<IEmployeeRepo, EmployeeRepo>();
 
 
 
